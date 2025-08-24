@@ -44,7 +44,7 @@ const Header: FC<HeaderProps> = ({ testMode, setTestMode, setWordCount, activeWo
   ];
 
   return (
-    <header className="w-full max-w-4xl mx-auto mt-8 flex flex-col items-center space-y-4">
+    <header className="w-full max-w-4xl mx-auto mt-2 flex flex-col items-center space-y-4">
       <h1 className="text-4xl font-bold text-main">kooltype</h1>
       <div className="bg-sub-alt rounded-lg p-2 flex items-center justify-center space-x-4 text-sm text-sub">
           {wordListOptions.map((item, index) => {
