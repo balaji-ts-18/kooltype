@@ -4,7 +4,7 @@ import { ReactNode } from 'react';
 import { ThemeProvider } from '../contexts/ThemeContext';
 
 export const metadata: Metadata = {
-  title: 'Typing Test',
+  title: 'kooltype', // Changed from 'Typing Test'
   description: 'A touch typing test website inspired by Monkeytype.',
 }
 
